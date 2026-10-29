@@ -1,0 +1,22 @@
+student-performance-prediction/
+│
+├── data/
+│   ├── students_raw.csv
+│   └── students_clean.csv
+│
+├── models/
+│   └── student_risk_model.pkl
+│
+├── outputs/
+│   ├── feature_importance.csv
+│   ├── predictions.csv
+│   └── metrics.txt
+│
+├── src/
+│   ├── generate_data.py
+│   ├── prepare.py
+│   ├── train.py
+│   └── predict.py
+│
+├── requirements.txt
+└── README.md
